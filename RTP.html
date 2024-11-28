@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Course Registration</title>
+  <link rel="stylesheet" href="./RTP.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Course Registration</h1>
+    <form id="registration-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="course">Course:</label>
+      <select id="course" required>
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Mobile App Development">Mobile App Development</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="./RTP.js"></script>
+</body>
+</html>
